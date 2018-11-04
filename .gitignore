@@ -1,6 +1,6 @@
 # Created by https://www.gitignore.io/api/c++,java,linux,macos,gradle,windows,visualstudiocode
 
-*.wpilib/
+.wpilib/
 
 ### C++ ###
 # Prerequisites
