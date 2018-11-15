@@ -100,7 +100,7 @@ void Robot::RobotPeriodic() {
 
 	SmartDashboard::PutNumber("Inverter", Robot::inverter);
 
-	//SmartDashboard::PutNumber("FLS Error", RobotMap::driveTrainFrontLeftSteer->GetClosedLoopError(0));
+	//SmartDashboard::PutNumber("FLS Error", RobotMap::driveTrainFrontLeftSteer->GetClosedLooror(0));
 	//SmartDashboard::PutNumber("FL Velocity", RobotMap::driveTrainFrontLeftDrive->GetSelectedSensorVelocity(0));
 	//SmartDashboard::PutNumber("RL Velocity", RobotMap::driveTrainRearLeftDrive->GetSelectedSensorVelocity(0));
 	//SmartDashboard::PutNumber("Elevator Current", RobotMap::pdp->GetCurrent(8)); // 3 for Test Bot

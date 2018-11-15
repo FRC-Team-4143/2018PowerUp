@@ -1,7 +1,8 @@
 #include "Commands/ArcadeDriveMode.h"
 #include "Robot.h"
 
-// ==========================================================================
+// ==
+//========================================================================
 
 ArcadeDriveMode::ArcadeDriveMode() {
 	Requires(Robot::driveTrain);
